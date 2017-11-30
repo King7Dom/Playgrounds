@@ -1,0 +1,42 @@
+[
+    {
+        "type": "payment",
+        "amount": 199,
+        "fromUser": {
+            "name": "Dominic",
+            "identifier": "1234"
+        },
+        "toUser": {
+            "name": "Stacey",
+            "identifier": "5678"
+        }
+    },
+    {
+        "type": "request",
+        "amount": 199,
+        "fromUser": {
+            "name": "Dominic",
+            "identifier": "1234"
+        },
+        "toUser": {
+            "name": "Stacey",
+            "identifier": "5678"
+        },
+        "referenceID": "A746E02D-B631-4D2D-B6FF-BFA3C07F319E"
+    },
+    {
+        "type": "split",
+        "amount": 398,
+        "referenceID": "A746E02D-B631-4D2D-B6FF-BFA3C07F319E",
+        "users": [
+            {
+                "name": "Dominic",
+                "identifier": "1234"
+            },
+            {
+                "name": "Stacey",
+                "identifier": "5678"
+            }
+        ]
+    }
+]
